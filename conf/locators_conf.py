@@ -28,3 +28,17 @@ CART_TITLE = "xpath,//h2[text()='Checkout']"
 CART_ROW = "xpath,//tbody/descendant::tr"
 CART_ROW_COLUMN = "xpath,//tbody/descendant::tr[%d]/descendant::td"
 CART_TOTAL = "id,total"
+
+#Payment Page
+PAY_BUTTON="xpath,//button[@type='submit']"
+EMAIL_FEILD='xpath,//input[@type="email"]'
+CARD_FEILD='xpath,//input[@placeholder="Card number"]'
+EXPIRE_FEILD='xpath,//input[@placeholder="MM / YY"]'
+CVV_FEILD='xpath,//input[@placeholder="CVC"]'
+ZIP_FEILD='xpath,//input[@placeholder="ZIP Code"]'
+CHECKBOX='xpath,//a[@class="Checkbox"]'
+PHONE_FEILD='xpath,//input[@autocomplete="mobile tel"]'
+SUBMIT_BUTTON='xpath,//button[@type="submit"]'
+
+#
+PAYMENT_HEADER='xpath,//h2[contains(text(),"PAYMENT")]'

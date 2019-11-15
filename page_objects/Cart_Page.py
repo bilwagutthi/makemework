@@ -142,5 +142,7 @@ class Cart_Page(Base_Page):
         if result_flag is False:
             result_flag &= self.verify_missing_item(expected_cart,actual_cart)
         result_flag &= self.verify_cart_total(expected_cart)
+        if result_flag:
+            self.switch_page("pay")
 
         return result_flag 
